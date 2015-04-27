@@ -1,0 +1,14 @@
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[core]
+        editor = nano
+[user]
+	name = trevor smith
+	email = trevor.stuard@gmail.com
+[credential]
+	helper = osxkeychain
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
